@@ -106,6 +106,7 @@ document.body.appendChild(el);
             /hero-desktop.png?width=2800 2800w"
   />
   <img
+    loading="lazy"
     src="/hero-desktop.png?width=2800"
     alt="Developer Stickers Online"
     fetchpriorty="high"

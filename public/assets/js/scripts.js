@@ -9,8 +9,7 @@
  * It also contains some performance problems that we will explore and fix:
  * 1.
  */
-window.addEventListener("DOMContentLoaded", async () => {
-
+window.addEventListener('DOMContentLoaded', async () => {
   const { user, cart, products } = await getDataRESTfully();
 
   /**
@@ -24,10 +23,10 @@ window.addEventListener("DOMContentLoaded", async () => {
    * We attache them to body because the buttons may be re-rendered during the
    * lifetime of the page.
    */
-  document.body.addEventListener("click", async (evt) => {
+  document.body.addEventListener('click', async (evt) => {
     const el = evt.target;
-    if (el.matches("button.add-to-cart")) {
-      const productId = parseInt(el.getAttribute("data-product-id"), 10);
+    if (el.matches('button.add-to-cart')) {
+      const productId = parseInt(el.getAttribute('data-product-id'), 10);
       updateAnalytics();
       await addToCart(user, productId);
 
@@ -51,20 +50,17 @@ window.addEventListener("DOMContentLoaded", async () => {
       //   el.textContent = "Add to Cart";
       //   el.removeAttribute("disabled");
       // }, 1500);
-    }
-    else if (el.matches("button.remove-from-cart")) {
-      const cartItemId = el.getAttribute("data-cart-item-id");
+    } else if (el.matches('button.remove-from-cart')) {
+      const cartItemId = el.getAttribute('data-cart-item-id');
       await removeFromCart(user, cartItemId, products);
-    }
-    else if (el.matches("button.clear-cart")) {
+    } else if (el.matches('button.clear-cart')) {
       await clearCart(user);
     }
   });
-
 });
 
 async function getCart(userId) {
-  let resp = await fetch(`${API_BASE_URL}/api/users/${userId}/cart`)
+  let resp = await fetch(`${API_BASE_URL}/api/users/${userId}/cart`);
   return await resp.json();
 }
 
@@ -78,7 +74,6 @@ async function getProducts(userId) {
  * Sequential calls for single entities.
  */
 async function getDataRESTfully() {
-
   async function getUser() {
     let userId = getLocalUserId();
     if (!userId) {
@@ -97,14 +92,14 @@ async function getDataRESTfully() {
 
   async function createUser(name) {
     let createUserResp = await fetch(`${API_BASE_URL}/api/users`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name })
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name }),
     });
 
-    const location = createUserResp.headers.get("Location");
+    const location = createUserResp.headers.get('Location');
     if (!location || createUserResp.status !== 201) {
-      throw new Error("Non RESTFUL Response");
+      throw new Error('Non RESTFUL Response');
     }
 
     let userResp = await fetch(location);
@@ -113,14 +108,14 @@ async function getDataRESTfully() {
     return user;
   }
 
-  let user = await getUser() ?? await createUser("unknown");
+  let user = (await getUser()) ?? (await createUser('unknown'));
   let cartTask = getCart(user.id);
   let productsTask = getProducts(user.id);
 
   return {
     user,
     cart: await cartTask,
-    products: await productsTask
+    products: await productsTask,
   };
 }
 
@@ -131,9 +126,9 @@ async function getDataRESTfully() {
 async function addToCart(user, productId) {
   const userId = user.id;
   const resp = await fetch(`${API_BASE_URL}/api/users/${userId}/cart`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ productId, userId })
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ productId, userId }),
   });
   const cart = await resp.json();
   renderCartCount(cart);
@@ -144,9 +139,12 @@ async function addToCart(user, productId) {
  * Removes a cartItem from the user's cart, then updates the UI.
  */
 async function removeFromCart(user, cartItemId, products) {
-  const resp = await fetch(`${API_BASE_URL}/api/users/${user.id}/cart/${cartItemId}`, {
-    method: "DELETE"
-  });
+  const resp = await fetch(
+    `${API_BASE_URL}/api/users/${user.id}/cart/${cartItemId}`,
+    {
+      method: 'DELETE',
+    },
+  );
   const cart = await resp.json();
   renderCartCount(cart);
   renderCartContents(cart, products);
@@ -157,9 +155,9 @@ async function removeFromCart(user, cartItemId, products) {
  * Clears the entire user cart and updates the UI
  */
 async function clearCart(user) {
-  const userId = user.id
+  const userId = user.id;
   const resp = await fetch(`${API_BASE_URL}/api/users/${userId}/cart`, {
-    method: "DELETE"
+    method: 'DELETE',
   });
   const cart = await resp.json();
   renderCartCount(cart);
@@ -172,23 +170,27 @@ async function clearCart(user) {
  * works with the presence of a #cart-items element.
  */
 function renderCartContents(cart, products) {
-  const el = document.getElementById("cart-items");
-  if (!el) { return; }
+  const el = document.getElementById('cart-items');
+  if (!el) {
+    return;
+  }
 
-  el.innerHTML = "";
+  el.innerHTML = '';
   cart.forEach((cartItem) => {
     const product = products.find((p) => p.id === cartItem.productId);
-    el.innerHTML = el.innerHTML + `
+    el.innerHTML =
+      el.innerHTML +
+      `
       <li class="product-card">
         <a href="/products/${product.slug}">
-          <img src="${product.imagePath}" alt="${product.name}" />
+          <img loading="lazy"  src="${product.imagePath}" alt="${product.name}" />
           <h3>${product.name}</h3>
         </a>
         <div class="flex align-center">
           <button type="button" class="remove-from-cart" data-cart-item-id="${cartItem.id}">Remove</button>
         </div>
       </li>`;
-  })
+  });
 }
 
 /**
@@ -204,26 +206,26 @@ function renderCartCount(cart) {
  * Dummy function that simulates doing a lot of expensive work.
  */
 function updateAnalytics() {
-  performance.mark("analytics_start");
-  const phantomEl = document.createElement("div");
+  performance.mark('analytics_start');
+  const phantomEl = document.createElement('div');
   for (var i = 0; i <= 200_000; i++) {
-    let child = document.createElement("div");
+    let child = document.createElement('div');
     child.textContent = i;
     phantomEl.appendChild(child);
   }
-  performance.mark("analytics_end");
-  performance.measure("analytics", "analytics_start", "analytics_end")
+  performance.mark('analytics_end');
+  performance.measure('analytics', 'analytics_start', 'analytics_end');
 }
 
 /**
  * Utility helper functions
  */
 function getLocalUserId() {
-  return localStorage.getItem("userId");
+  return localStorage.getItem('userId');
 }
 function saveLocalUserId(userId) {
-  localStorage.setItem("userId", userId);
+  localStorage.setItem('userId', userId);
 }
 function clearLocalUserId() {
-  localStorage.removeItem("userId");
+  localStorage.removeItem('userId');
 }
