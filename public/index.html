@@ -1,179 +1,216 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Stickers Online</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Developer Stickers Online</title>
+    <link rel="stylesheet" href="/assets/css/styles.bundle.css" />
+    <script>
+      const API_BASE_URL = `${location.protocol}//${location.host}`;
+      const STATIC_BASE_URL = `${location.protocol}//${location.host}`;
+    </script>
+    <script src="/assets/js/scripts.js"></script>
+    <script src="/assets/js/promo.js"></script>
+  </head>
 
-  <!-- Google Fonts -->
-  <!-- Default embed code for "Fira Sans" with default options in the UI -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-
-  <link rel="stylesheet" href="/assets/css/styles.bundle.css">
-  <script>
-    const API_BASE_URL = `${location.protocol}//${location.host}`;
-    const STATIC_BASE_URL = `${location.protocol}//${location.host}`;
-  </script>
-  <script src="/assets/js/scripts.js"></script>
-  <script src="/assets/js/promo.js"></script>
-</head>
-
-<body>
-  <header>
-    <div class="container flex-row align-center space-between">
-      <a href="/" class="site-logo flex align-center flex-gap-10">
-        <div class="site-icon">
-          <img src="/assets/img/devstickers-logo.png" alt="Developer Stickers Online" />
-        </div>
-        <h1 class="flex-column">
-          <span>Developer Stickers</span>
-          <em>Online</em>
-        </h1>
-      </a>
-      <div class="cart">
-        <a href="/cart" class="flex align-center">Cart<span id="cart-count">0</span></a>
-      </div>
-    </div>
-  </header>
-
-  <main>
-
-    <section id="promo-banner"><!-- This is filled in by promo.js --></section>
-
-    <section class="hero">
-      <div class="illustration">
-        <img class="desktop" src="/assets/img/hero-desktop.png" alt="Developer Stickers" />
-        <img class="mobile" src="/assets/img/hero-mobile.png" alt="Developer Stickers" />
-      </div>
-      <!-- NOTE: As of Chrome 129, we can trick it by hiding the LCP element behind a transparent element -->
-      <!-- <div class="overlay"></div> -->
-      <div class="hero-content">
-        <div class="container flex-column justify-center">
-          <h1>
-            Level up your Sticker Game
+  <body>
+    <header>
+      <div class="container flex-row align-center space-between">
+        <a href="/" class="site-logo flex align-center flex-gap-10">
+          <div class="site-icon">
+            <img
+              src="/assets/img/devstickers-logo.png"
+              alt="Developer Stickers Online" />
+          </div>
+          <h1 class="flex-column">
+            <span>Developer Stickers</span>
+            <em>Online</em>
           </h1>
-          <p>
-            Grab our exclusive developer stickers and show off your love/hate for JavaScript
-            and the web.
-          </p>
+        </a>
+        <div class="cart">
+          <a href="/cart" class="flex align-center"
+            >Cart<span id="cart-count">0</span></a
+          >
         </div>
       </div>
-    </section>
+    </header>
 
-    <section class="featured-products container">
-      <h2 class="mb-20">Featured Products</h2>
-      <div class="product-grid">
+    <main>
+      <section id="promo-banner">
+        <!-- This is filled in by promo.js -->
+      </section>
 
-        <div class="product-card">
-          <a href="/products/fast-sloth-sticker" class="mb-20">
-            <img src="/assets/img/fast-sloth-sticker.png" alt="Fast Sloth Sticker" loading="lazy">
-            <h2>Fast Sloth Sticker</h2>
+      <section class="hero">
+        <div class="illustration">
+          <img
+            class="desktop"
+            src="/assets/img/hero-desktop.png"
+            alt="Developer Stickers" />
+          <img
+            class="mobile"
+            src="/assets/img/hero-mobile.png"
+            alt="Developer Stickers" />
+        </div>
+        <!-- NOTE: As of Chrome 129, we can trick it by hiding the LCP element behind a transparent element -->
+        <!-- <div class="overlay"></div> -->
+        <div class="hero-content">
+          <div class="container flex-column justify-center">
+            <h1>Level up your Sticker Game</h1>
             <p>
-              Get your hands on this awesome Request Metrics sloth sticker, featuring our chill mascot riding a
-              rocket—perfect for your laptop or desk!
+              Grab our exclusive developer stickers and show off your love/hate
+              for JavaScript and the web.
             </p>
-          </a>
-          <button type="button" class="add-to-cart btn-primary" data-product-id="1">Add to Cart</button>
+          </div>
         </div>
+      </section>
 
-        <div class="product-card">
-          <a href="/products/good-day-to-debug-sticker" class="mb-20">
-            <img src="/assets/img/good-day-to-debug-sticker.png" alt="Good Day to Debug Sticker">
-            <h2>Good Day to Debug Sticker</h2>
+      <section class="featured-products container">
+        <h2 class="mb-20">Featured Products</h2>
+        <div class="product-grid">
+          <div class="product-card">
+            <a href="/products/fast-sloth-sticker" class="mb-20">
+              <img
+                src="/assets/img/fast-sloth-sticker.png"
+                alt="Fast Sloth Sticker"
+                loading="lazy" />
+              <h2>Fast Sloth Sticker</h2>
+              <p>
+                Get your hands on this awesome Request Metrics sloth sticker,
+                featuring our chill mascot riding a rocket—perfect for your
+                laptop or desk!
+              </p>
+            </a>
+            <button
+              type="button"
+              class="add-to-cart btn-primary"
+              data-product-id="1">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="product-card">
+            <a href="/products/good-day-to-debug-sticker" class="mb-20">
+              <img
+                src="/assets/img/good-day-to-debug-sticker.png"
+                alt="Good Day to Debug Sticker" />
+              <h2>Good Day to Debug Sticker</h2>
+              <p>
+                Channel your inner warrior with this epic Request Metrics
+                sticker. Debug with honor.
+              </p>
+            </a>
+            <button
+              type="button"
+              class="add-to-cart btn-primary"
+              data-product-id="2">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="product-card">
+            <a href="/products/js-happens-sticker" class="mb-20">
+              <img
+                src="/assets/img/js-happens-sticker.png"
+                alt="JavaScript Happens" />
+              <h2>JavaScript Happens</h2>
+              <p>
+                Embrace the inevitable. You can't stop it. JavaScript will
+                happen.
+              </p>
+            </a>
+            <button
+              type="button"
+              class="add-to-cart btn-primary"
+              data-product-id="3">
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="product-card">
+            <a href="/products/yo-dawg-sticker" class="mb-20">
+              <img
+                src="/assets/img/yo-dawg-sticker.png"
+                alt="Yo Dawg Sticker" />
+              <h2>Yo Dawg Sticker</h2>
+              <p>
+                Develop JavaScript like Xzibit. You always need more JavaScript.
+              </p>
+            </a>
+            <button
+              type="button"
+              class="add-to-cart btn-primary"
+              data-product-id="4">
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="callouts container">
+        <div class="callout">
+          <picture>
+            <img
+              src="/assets/img/callout-1.png"
+              alt="Express Your Developer Personality" />
+          </picture>
+          <div class="callout-text">
+            <h2>Express Your Developer Personality</h2>
             <p>
-              Channel your inner warrior with this epic Request Metrics sticker. Debug with honor.
+              Why settle for a plain device when you can show off your unique
+              developer personality? Our stickers let you add humor, creativity,
+              and flair to your gear—whether it's your laptop, phone, or desk.
+              Each sticker is designed with developers in mind, so you can make
+              coding cool while staying true to your style.
             </p>
-          </a>
-          <button type="button" class="add-to-cart btn-primary" data-product-id="2">Add to Cart</button>
+          </div>
         </div>
-
-        <div class="product-card">
-          <a href="/products/js-happens-sticker" class="mb-20">
-            <img src="/assets/img/js-happens-sticker.png" alt="JavaScript Happens">
-            <h2>JavaScript Happens</h2>
+        <div class="callout">
+          <picture>
+            <img
+              src="/assets/img/callout-2.png"
+              alt="High-Quality Stickers Built to Last" />
+          </picture>
+          <div class="callout-text">
+            <h2>High-Quality Stickers Built to Last</h2>
             <p>
-              Embrace the inevitable. You can't stop it. JavaScript will happen.
+              Crafted with high-quality materials, our stickers are made to
+              last. They’re resistant to wear and tear, so whether you're at the
+              office or out at a hackathon, you can trust your stickers to stay
+              as bold and fun as the day you got them. Slap them on your laptop,
+              phone, or water bottle—they’ll keep sticking with you through all
+              your coding adventures.
             </p>
-          </a>
-          <button type="button" class="add-to-cart btn-primary" data-product-id="3">Add to Cart</button>
+          </div>
         </div>
-
-        <div class="product-card">
-          <a href="/products/yo-dawg-sticker" class="mb-20">
-            <img src="/assets/img/yo-dawg-sticker.png" alt="Yo Dawg Sticker">
-            <h2>Yo Dawg Sticker</h2>
+        <div class="callout">
+          <picture>
+            <img src="/assets/img/callout-3.png" alt="Perfect for Gifting" />
+          </picture>
+          <div class="callout-text">
+            <h2>Perfect for Gifting</h2>
             <p>
-              Develop JavaScript like Xzibit. You always need more JavaScript.
+              Looking for the perfect gift for your developer friends or
+              colleagues? Our stickers make an awesome, personalized gift that
+              every coder will appreciate. Whether it’s a quirky JavaScript pun
+              or a debugging sloth, these stickers are sure to bring a smile and
+              make their workstations pop.
             </p>
-          </a>
-          <button type="button" class="add-to-cart btn-primary" data-product-id="4">Add to Cart</button>
+          </div>
         </div>
+      </section>
+    </main>
 
+    <footer>
+      <div class="container align-center justify-center">
+        <p>
+          Example online store website for the Web Performance Lab by Muhmmad
+          Medhat.
+        </p>
+        <p>Not intended for production use.</p>
       </div>
-    </section>
-
-    <section class="callouts container">
-      <div class="callout">
-        <picture>
-          <img src="/assets/img/callout-1.png" alt="Express Your Developer Personality">
-        </picture>
-        <div class="callout-text">
-          <h2>Express Your Developer Personality</h2>
-          <p>
-            Why settle for a plain device when you can show off your unique developer personality? Our stickers let you
-            add humor, creativity, and flair to your gear—whether it's your laptop, phone, or desk. Each sticker is
-            designed with developers in mind, so you can make coding cool while staying true to your style.
-          </p>
-        </div>
-      </div>
-      <div class="callout">
-        <picture>
-          <img src="/assets/img/callout-2.png" alt="High-Quality Stickers Built to Last">
-        </picture>
-        <div class="callout-text">
-          <h2>High-Quality Stickers Built to Last</h2>
-          <p>
-            Crafted with high-quality materials, our stickers are made to last. They’re resistant to wear and tear, so
-            whether you're at the office or out at a hackathon, you can trust your stickers to stay as bold and fun as
-            the day you got them. Slap them on your laptop, phone, or water bottle—they’ll keep sticking with you
-            through all your coding adventures.
-          </p>
-        </div>
-      </div>
-      <div class="callout">
-        <picture>
-          <img src="/assets/img/callout-3.png" alt="Perfect for Gifting">
-        </picture>
-        <div class="callout-text">
-          <h2>Perfect for Gifting</h2>
-          <p>
-            Looking for the perfect gift for your developer friends or colleagues? Our stickers make an awesome,
-            personalized gift that every coder will appreciate. Whether it’s a quirky JavaScript pun or a debugging
-            sloth, these stickers are sure to bring a smile and make their workstations pop.
-          </p>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer>
-    <div class="container align-center justify-center">
-      <p>
-        Example online store website for the Web Performance Lab by Muhmmad Medhat.
-      </p>
-      <p>
-        Not intended for production use.
-      </p>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
 
 <!--

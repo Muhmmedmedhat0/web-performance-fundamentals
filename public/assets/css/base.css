@@ -1,6 +1,7 @@
-@import "./colors.css";
-@import "./normalize.css";
-@import "./typography.css";
+@import './font.css';
+@import './colors.css';
+@import './normalize.css';
+@import './typography.css';
 
 * {
   box-sizing: border-box;
@@ -33,7 +34,9 @@ button {
   font-weight: bold;
   transition: filter 200ms ease-in-out;
 
-  &:active, &:focus, &:hover {
+  &:active,
+  &:focus,
+  &:hover {
     filter: brightness(130%);
   }
 
@@ -52,7 +55,7 @@ button {
     color: white;
   }
 
-  &[disabled=disabled] {
+  &[disabled='disabled'] {
     background-color: var(--color-surface-600);
     color: var(--color-surface-300);
   }
