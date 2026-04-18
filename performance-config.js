@@ -8,20 +8,19 @@
  * the workings of the server specifics.
  */
 module.exports = {
-
   /**
    * Whether to use basic GZip Compression on response bodies, when supported by
    * the requesting browser.
    * @see https://developer.mozilla.org/en-US/docs/Glossary/gzip_compression
    */
-  enableGzipCompression: false,
+  enableGzipCompression: true,
 
   /**
    * Whether to use the Brotli Compression on response bodies, when supported
    * by the requesting browser.
    * @see https://developer.mozilla.org/en-US/docs/Glossary/Brotli_compression
    */
-  enableBrotliCompression: false,
+  enableBrotliCompression: true,
 
   /**
    * Whether to send the 304 Caching Headers `ETag` and `Last-Modified` for
@@ -29,19 +28,18 @@ module.exports = {
    * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag
    * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Last-Modified
    */
-  enable304CachingHeaders: false,
+  enable304CachingHeaders: true,
 
   /**
    * Whether to send the Browser Caching Headers `Cache-Control` and `Expires`
    * headers to maintaining the in-browser cache.
    * @see https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control
    */
-  enableBrowserCache: false,
+  enableBrowserCache: true,
 
   /**
    * The expected processing time in milliseconds of a "real" server under load
    * that has to talk to external systems.
    */
-  serverDuration: 1_000
-
+  serverDuration: 0,
 };
