@@ -4,7 +4,7 @@
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9A4kDNxMZdWfMOD5VvkrCqUT3fcWTP.woff2)
+  src: url(/assets/fonts/va9A4kDNxMZdWfMOD5VvkrCqUT3fcWTP.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -15,7 +15,7 @@
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9A4kDNxMZdWfMOD5VvkrCqUTTfcWTP.woff2)
+  src: url(/assets/fonts/va9A4kDNxMZdWfMOD5VvkrCqUTTfcWTP.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -25,7 +25,7 @@
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9A4kDNxMZdWfMOD5VvkrCqUTzfcWTP.woff2)
+  src: url(/assets/fonts/va9A4kDNxMZdWfMOD5VvkrCqUTzfcWTP.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -35,7 +35,7 @@
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9A4kDNxMZdWfMOD5VvkrCqUTPfcWTP.woff2)
+  src: url(/assets/fonts/va9A4kDNxMZdWfMOD5VvkrCqUTPfcWTP.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -46,7 +46,7 @@
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9A4kDNxMZdWfMOD5VvkrCqUT_fcWTP.woff2)
+  src: url(/assets/fonts/va9A4kDNxMZdWfMOD5VvkrCqUT_fcWTP.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -59,7 +59,7 @@
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9A4kDNxMZdWfMOD5VvkrCqUT7fcWTP.woff2)
+  src: url(/assets/fonts/va9A4kDNxMZdWfMOD5VvkrCqUT7fcWTP.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -72,7 +72,7 @@
   font-style: italic;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9A4kDNxMZdWfMOD5VvkrCqUTDfcQ.woff2)
+  src: url(/assets/fonts/va9A4kDNxMZdWfMOD5VvkrCqUTDfcQ.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -85,7 +85,7 @@
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAGQCf1VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAGQCf1VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -96,7 +96,7 @@
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAGQCf8VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAGQCf8VFn2lg.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -106,7 +106,7 @@
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAGQCf0VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAGQCf0VFn2lg.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -116,7 +116,7 @@
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAGQCf7VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAGQCf7VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -127,7 +127,7 @@
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAGQCf3VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAGQCf3VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -140,7 +140,7 @@
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAGQCf2VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAGQCf2VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -153,7 +153,7 @@
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAGQCf4VFk.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAGQCf4VFk.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -166,7 +166,7 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBiQyf1VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBiQyf1VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -177,7 +177,7 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBiQyf8VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBiQyf8VFn2lg.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -187,7 +187,7 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBiQyf0VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBiQyf0VFn2lg.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -197,7 +197,7 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBiQyf7VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBiQyf7VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -208,7 +208,7 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBiQyf3VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBiQyf3VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -221,7 +221,7 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBiQyf2VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBiQyf2VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -234,7 +234,7 @@
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBiQyf4VFk.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBiQyf4VFk.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -247,7 +247,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5VvkrjEYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5VvkrjEYTLHdQ.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -258,7 +258,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5VvkrjNYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5VvkrjNYTLHdQ.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -268,7 +268,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5VvkrjFYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5VvkrjFYTLHdQ.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -278,7 +278,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5VvkrjKYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5VvkrjKYTLHdQ.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -289,7 +289,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5VvkrjGYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5VvkrjGYTLHdQ.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -302,7 +302,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5VvkrjHYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5VvkrjHYTLHdQ.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -315,7 +315,7 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5VvkrjJYTI.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5VvkrjJYTI.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -328,7 +328,7 @@
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrA6Qif1VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrA6Qif1VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -339,7 +339,7 @@
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrA6Qif8VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrA6Qif8VFn2lg.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -349,7 +349,7 @@
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrA6Qif0VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrA6Qif0VFn2lg.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -359,7 +359,7 @@
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrA6Qif7VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrA6Qif7VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -370,7 +370,7 @@
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrA6Qif3VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrA6Qif3VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -383,7 +383,7 @@
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrA6Qif2VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrA6Qif2VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -396,7 +396,7 @@
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrA6Qif4VFk.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrA6Qif4VFk.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -409,7 +409,7 @@
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAWRSf1VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAWRSf1VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -420,7 +420,7 @@
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAWRSf8VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAWRSf8VFn2lg.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -430,7 +430,7 @@
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAWRSf0VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAWRSf0VFn2lg.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -440,7 +440,7 @@
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAWRSf7VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAWRSf7VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -451,7 +451,7 @@
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAWRSf3VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAWRSf3VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -464,7 +464,7 @@
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAWRSf2VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAWRSf2VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -477,7 +477,7 @@
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrAWRSf4VFk.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrAWRSf4VFk.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -490,7 +490,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrByRCf1VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrByRCf1VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -501,7 +501,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrByRCf8VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrByRCf8VFn2lg.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -511,7 +511,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrByRCf0VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrByRCf0VFn2lg.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -521,7 +521,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrByRCf7VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrByRCf7VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -532,7 +532,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrByRCf3VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrByRCf3VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -545,7 +545,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrByRCf2VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrByRCf2VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -558,7 +558,7 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrByRCf4VFk.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrByRCf4VFk.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -571,7 +571,7 @@
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBuRyf1VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBuRyf1VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -582,7 +582,7 @@
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBuRyf8VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBuRyf8VFn2lg.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -592,7 +592,7 @@
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBuRyf0VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBuRyf0VFn2lg.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -602,7 +602,7 @@
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBuRyf7VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBuRyf7VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -613,7 +613,7 @@
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBuRyf3VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBuRyf3VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -626,7 +626,7 @@
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBuRyf2VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBuRyf2VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -639,7 +639,7 @@
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBuRyf4VFk.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBuRyf4VFk.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -652,7 +652,7 @@
   font-style: italic;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBKRif1VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBKRif1VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -663,7 +663,7 @@
   font-style: italic;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBKRif8VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBKRif8VFn2lg.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -673,7 +673,7 @@
   font-style: italic;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBKRif0VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBKRif0VFn2lg.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -683,7 +683,7 @@
   font-style: italic;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBKRif7VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBKRif7VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -694,7 +694,7 @@
   font-style: italic;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBKRif3VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBKRif3VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -707,7 +707,7 @@
   font-style: italic;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBKRif2VFn2lg.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBKRif2VFn2lg.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -720,7 +720,7 @@
   font-style: italic;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9f4kDNxMZdWfMOD5VvkrBKRif4VFk.woff2)
+  src: url(/assets/fonts/va9f4kDNxMZdWfMOD5VvkrBKRif4VFk.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -733,7 +733,7 @@
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5Vn9LjEYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5Vn9LjEYTLHdQ.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -744,7 +744,7 @@
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5Vn9LjNYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5Vn9LjNYTLHdQ.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -754,7 +754,7 @@
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5Vn9LjFYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5Vn9LjFYTLHdQ.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -764,7 +764,7 @@
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5Vn9LjKYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5Vn9LjKYTLHdQ.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -775,7 +775,7 @@
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5Vn9LjGYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5Vn9LjGYTLHdQ.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -788,7 +788,7 @@
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5Vn9LjHYTLHdQ.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5Vn9LjHYTLHdQ.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -801,7 +801,7 @@
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9C4kDNxMZdWfMOD5Vn9LjJYTI.woff2)
+  src: url(/assets/fonts/va9C4kDNxMZdWfMOD5Vn9LjJYTI.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -814,7 +814,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnWKneSxf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnWKneSxf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -825,7 +825,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnWKneQhf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnWKneQhf6TF0.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -835,7 +835,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnWKneShf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnWKneShf6TF0.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -845,7 +845,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnWKneRRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnWKneRRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -856,7 +856,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnWKneSRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnWKneSRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -869,7 +869,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnWKneSBf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnWKneSBf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -882,7 +882,7 @@
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnWKneRhf6.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnWKneRhf6.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -895,7 +895,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnPKreSxf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnPKreSxf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -906,7 +906,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnPKreQhf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnPKreQhf6TF0.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -916,7 +916,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnPKreShf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnPKreShf6TF0.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -926,7 +926,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnPKreRRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnPKreRRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -937,7 +937,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnPKreSRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnPKreSRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -950,7 +950,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnPKreSBf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnPKreSBf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -963,7 +963,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnPKreRhf6.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnPKreRhf6.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -976,7 +976,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9E4kDNxMZdWfMOD5VvmojLeTY.woff2)
+  src: url(/assets/fonts/va9E4kDNxMZdWfMOD5VvmojLeTY.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -987,7 +987,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9E4kDNxMZdWfMOD5Vvk4jLeTY.woff2)
+  src: url(/assets/fonts/va9E4kDNxMZdWfMOD5Vvk4jLeTY.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -997,7 +997,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9E4kDNxMZdWfMOD5Vvm4jLeTY.woff2)
+  src: url(/assets/fonts/va9E4kDNxMZdWfMOD5Vvm4jLeTY.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -1007,7 +1007,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9E4kDNxMZdWfMOD5VvlIjLeTY.woff2)
+  src: url(/assets/fonts/va9E4kDNxMZdWfMOD5VvlIjLeTY.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -1018,7 +1018,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9E4kDNxMZdWfMOD5VvmIjLeTY.woff2)
+  src: url(/assets/fonts/va9E4kDNxMZdWfMOD5VvmIjLeTY.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -1031,7 +1031,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9E4kDNxMZdWfMOD5VvmYjLeTY.woff2)
+  src: url(/assets/fonts/va9E4kDNxMZdWfMOD5VvmYjLeTY.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -1044,7 +1044,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9E4kDNxMZdWfMOD5Vvl4jL.woff2)
+  src: url(/assets/fonts/va9E4kDNxMZdWfMOD5Vvl4jL.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -1057,7 +1057,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnZKveSxf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnZKveSxf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -1068,7 +1068,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnZKveQhf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnZKveQhf6TF0.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -1078,7 +1078,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnZKveShf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnZKveShf6TF0.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -1088,7 +1088,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnZKveRRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnZKveRRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -1099,7 +1099,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnZKveSRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnZKveSRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -1112,7 +1112,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnZKveSBf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnZKveSBf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -1125,7 +1125,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnZKveRhf6.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -1138,7 +1138,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeSxf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnSKzeSxf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -1149,7 +1149,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeQhf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnSKzeQhf6TF0.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -1159,7 +1159,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeShf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnSKzeShf6TF0.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -1169,7 +1169,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeRRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnSKzeRRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -1180,7 +1180,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeSRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnSKzeSRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -1193,7 +1193,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeSBf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnSKzeSBf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -1206,7 +1206,7 @@
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -1219,7 +1219,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnLK3eSxf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnLK3eSxf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -1230,7 +1230,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnLK3eQhf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnLK3eQhf6TF0.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -1240,7 +1240,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnLK3eShf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnLK3eShf6TF0.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -1250,7 +1250,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnLK3eRRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnLK3eRRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -1261,7 +1261,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnLK3eSRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnLK3eSRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -1274,7 +1274,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnLK3eSBf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnLK3eSBf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -1287,7 +1287,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnLK3eRhf6.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnLK3eRhf6.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -1300,7 +1300,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnMK7eSxf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnMK7eSxf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -1311,7 +1311,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnMK7eQhf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnMK7eQhf6TF0.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -1321,7 +1321,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnMK7eShf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnMK7eShf6TF0.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -1331,7 +1331,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnMK7eRRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnMK7eRRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -1342,7 +1342,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnMK7eSRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnMK7eSRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -1355,7 +1355,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnMK7eSBf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnMK7eSBf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -1368,7 +1368,7 @@
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnMK7eRhf6.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnMK7eRhf6.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -1381,7 +1381,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnFK_eSxf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnFK_eSxf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
@@ -1392,7 +1392,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnFK_eQhf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnFK_eQhf6TF0.woff2)
     format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
@@ -1402,7 +1402,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnFK_eShf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnFK_eShf6TF0.woff2)
     format('woff2');
   unicode-range: U+1F00-1FFF;
 }
@@ -1412,7 +1412,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnFK_eRRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnFK_eRRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
@@ -1423,7 +1423,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnFK_eSRf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnFK_eSRf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
@@ -1436,7 +1436,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnFK_eSBf6TF0.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnFK_eSBf6TF0.woff2)
     format('woff2');
   unicode-range:
     U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
@@ -1449,7 +1449,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/firasans/v18/va9B4kDNxMZdWfMOD5VnFK_eRhf6.woff2)
+  src: url(/assets/fonts/va9B4kDNxMZdWfMOD5VnFK_eRhf6.woff2)
     format('woff2');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
