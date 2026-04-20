@@ -25,33 +25,41 @@ window.addEventListener('DOMContentLoaded', async () => {
     right: '0',
     zIndex: '20',
     pointerEvents: 'none',
+    maxHeight: '106px',
+    overflow: 'hidden',
   });
 
   const productsResp = await fetch(`${API_BASE_URL}/api/products`);
   const products = await productsResp.json();
+  const promoProduct =
+    products.find((product) => product.isPromo) ?? products[0];
 
-  let innerHTML = "<div class='container'><div class='promo-list flex-column'>";
-  products.forEach((product) => {
-    innerHTML += `
-      <div class="product-card ${product.isPromo ? 'promo' : ''}">
-        <a href="/products/${product.slug}">
+  if (!promoProduct) {
+    return;
+  }
+
+  let innerHTML =
+    "<div class='container'><div class='promo-list flex-column' style='height:100px;max-height:100px;overflow:hidden'>";
+  innerHTML += `
+      <div class="product-card promo" style="height:100px;min-height:100px;max-height:100px;overflow:hidden">
+        <a href="/products/${promoProduct.slug}">
           <img
 						height="80"
             width="80" 
 						loading="lazy"  
-						src="${STATIC_BASE_URL}${product.imagePath}?promo" 
-						alt="${product.name}" 
+						src="${STATIC_BASE_URL}${promoProduct.imagePath}?promo" 
+						alt="${promoProduct.name}"
+						style="height:72px;max-height:72px;width:auto;display:block" 
 					/>
           <div class="product-copy flex-column">
             <h2>Flash Sale!!</h2>
-            <h3>${product.name}</h3>
+            <h3>${promoProduct.name}</h3>
           </div>
         </a>
         <div class="flex align-center">
-          <button type="button" class="add-to-cart btn-inverse btn-big" data-product-id="${product.id}">Add to Cart</button>
+          <button type="button" class="add-to-cart btn-inverse" data-product-id="${promoProduct.id}">Add to Cart</button>
         </div>
       </div>`;
-  });
   innerHTML += '</div>';
   innerHTML += '</div>';
   el.innerHTML = innerHTML;

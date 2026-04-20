@@ -1802,7 +1802,7 @@ main.cart {
 }
 
 .promo-list {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 
   & .product-card {
     opacity: 0;
@@ -1813,21 +1813,21 @@ main.cart {
     transition: opacity .52s, transform .62s cubic-bezier(.2, .8, .2, 1);
     overflow: hidden;
     transform: translateY(20px);
-    height: 110px !important;
-    min-height: 110px !important;
-    max-height: 110px !important;
+    height: 100px !important;
+    min-height: 100px !important;
+    max-height: 100px !important;
 
     & a {
       flex-direction: row;
       gap: 12px;
       min-width: 0;
-      height: 110px !important;
+      height: 100px !important;
 
       & img {
         border-radius: .8em;
         width: auto;
         height: 100% !important;
-        max-height: 80px !important;
+        max-height: 72px !important;
       }
 
       & .product-copy {
@@ -1874,9 +1874,9 @@ main.cart {
     &.expand {
       opacity: 1;
       transform: translateY(0);
-      height: 110px !important;
-      min-height: 110px !important;
-      max-height: 110px !important;
+      height: 100px !important;
+      min-height: 100px !important;
+      max-height: 100px !important;
 
       & .product-copy {
         opacity: 1;

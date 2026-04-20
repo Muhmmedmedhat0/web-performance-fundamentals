@@ -26,30 +26,26 @@ window.addEventListener('DOMContentLoaded', async () => {
   document.body.addEventListener('click', async (evt) => {
     const el = evt.target;
     if (el.matches('button.add-to-cart')) {
-      const productId = parseInt(el.getAttribute('data-product-id'), 10);
-      updateAnalytics();
-      await addToCart(user, productId);
-
       /**
-       * TODO Performance Opportunity
+       *  Performance Opportunity
        *
        * We do a lot of expensive work on the main thread in this handler, and
        * we don't provide much user feedback. This makes interactivity feel
        * sluggish.
        */
-      // const productId = parseInt(el.getAttribute("data-product-id"), 10);
-      // requestAnimationFrame(() => {
-      //   el.textContent = "Added!";
-      //   el.setAttribute("disabled", "disabled");
-      // });
-      // setTimeout(() => {
-      //   updateAnalytics();
-      // });
-      // await addToCart(user, productId);
-      // setTimeout(() => {
-      //   el.textContent = "Add to Cart";
-      //   el.removeAttribute("disabled");
-      // }, 1500);
+      const productId = parseInt(el.getAttribute('data-product-id'), 10);
+      requestAnimationFrame(() => {
+        el.textContent = 'Added!';
+        el.setAttribute('disabled', 'disabled');
+      });
+      setTimeout(() => {
+        updateAnalytics();
+      });
+      await addToCart(user, productId);
+      setTimeout(() => {
+        el.textContent = 'Add to Cart';
+        el.removeAttribute('disabled');
+      }, 1500);
     } else if (el.matches('button.remove-from-cart')) {
       const cartItemId = el.getAttribute('data-cart-item-id');
       await removeFromCart(user, cartItemId, products);
