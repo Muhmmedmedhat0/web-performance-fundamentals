@@ -9,6 +9,7 @@
     "imagePngResizer": "node ./tools/imagePngResizer.mjs",
     "imagePngOptimize": "node ./tools/imagePngOptimize.mjs",
     "imagePngToWebP": "node ./tools/imagePngToWebP.mjs",
+    "replaceImagePathsToWebP": "node ./tools/replaceImagePathsToWebP.mjs",
     "deploy": "./tools/deploy.sh"
   },
   "repository": {

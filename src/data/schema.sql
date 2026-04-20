@@ -42,25 +42,25 @@ INSERT INTO products (slug, name, description, imagePath)
     'fast-sloth-sticker',
     'Fast Sloth Sticker',
     'Get your hands on this awesome Request Metrics sloth sticker, featuring our chill mascot riding a rocket—perfect for your laptop or desk!',
-    '/assets/img/fast-sloth-sticker.png'
+    '/assets/webp/fast-sloth-sticker.webp'
   ),
   (
     'good-day-to-debug-sticker',
     'Good Day to Debug Sticker',
     'Channel your inner warrior with this epic Request Metrics sticker. Debug with honor.',
-    '/assets/img/good-day-to-debug-sticker.png'
+    '/assets/webp/good-day-to-debug-sticker.webp'
   ),
   (
     'js-happens-sticker',
     'JavaScript Happens Sticker',
     'Embrace the inevitable. You can&apos;t stop it. JavaScript will happen.',
-    '/assets/img/js-happens-sticker.png'
+    '/assets/webp/js-happens-sticker.webp'
   ),
   (
     'yo-dawg-sticker',
     'Yo Dawg Sticker',
     'Develop JavaScript like Xzibit. You always need more JavaScript.',
-    '/assets/img/yo-dawg-sticker.png'
+    '/assets/webp/yo-dawg-sticker.webp'
   );
 
 
