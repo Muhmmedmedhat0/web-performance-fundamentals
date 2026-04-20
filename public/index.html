@@ -46,20 +46,29 @@
       </section>
 
       <section class="hero">
-        <div class="illustration">
+        <picture class="illustration">
+          <source
+            media="(max-width: 720px)"
+            srcset="
+              /assets/webp/hero-mobile-360.webp   360w,
+              /assets/webp/hero-mobile-720.webp   720w,
+              /assets/webp/hero-mobile-1024.webp 1024w
+            " />
+          <source
+            media="(min-width: 721px)"
+            srcset="
+              /assets/webp/hero-desktop-720.webp   720w,
+              /assets/webp/hero-desktop-1024.webp 1024w,
+              /assets/webp/hero-desktop-2800.webp 2800w
+            " />
           <img
-            loading="eager"
+            loading="lazy"
+            src="/assets/webp/hero-desktop-2800.webp"
+            alt="Developer Stickers Online"
             fetchpriority="high"
-            class="desktop"
-            src="/assets/webp/hero-desktop.webp"
-            alt="Developer Stickers" />
-          <img
-            loading="eager"
-            fetchpriority="high"
-            class="mobile"
-            src="/assets/webp/hero-mobile.webp"
-            alt="Developer Stickers" />
-        </div>
+            height="1200"
+            width="2800" />
+        </picture>
         <!-- NOTE: As of Chrome 129, we can trick it by hiding the LCP element behind a transparent element -->
         <!-- <div class="overlay"></div> -->
         <div class="hero-content">
