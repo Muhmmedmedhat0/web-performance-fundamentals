@@ -18,14 +18,14 @@ const widths = [360, 720, 1024, 1400, 2800];
 
 console.log("Generating Responsive Images");
 
-await mkdir(`public/assets/img/r`, { recursive: true });
+await mkdir(`public/assets/img/responsive`, { recursive: true });
 
 filePaths.forEach(async (path) => {
   widths.forEach(async (width) => {
     const sourcePath = parse(path);
     const file = await Jimp.read(path);
     const resizedFile = await file.resize({ w: width });
-    await resizedFile.write(`public/assets/img/r/${sourcePath.name}-${width}${sourcePath.ext}`);
+    await resizedFile.write(`public/assets/img/responsive/${sourcePath.name}-${width}${sourcePath.ext}`);
   });
 });
 
